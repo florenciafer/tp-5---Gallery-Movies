@@ -1,0 +1,47 @@
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  }
+body{
+    background-image: url(img/avengers.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    z-index: -1; 
+}
+
+.container-page-movies{
+    height: 100vh;
+    width: 100vw;
+    padding-top: 32vh; 
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 1)
+      );
+}
+.title-movies{
+    justify-content: flex-start;
+    font-weight: 400;
+    color: antiquewhite;
+}
+.Carrousel-Movies{
+    display: flex;
+}
+.movie{
+    display: flex;
+    width: 19vh;
+    height: auto;
+    margin: 1vh;
+    border-radius: 3%;
+    border: 2px solid gray;
+}
+.movie:hover{
+    transform: scale(1.1);
+}
